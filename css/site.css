@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+}
+
+h1 {
+    color: #d8ecf7;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+h1:hover {
+    color: rosybrown;
+    background-color: rgb(85, 20, 85);
+}
+
+.shadow-text {
+    
+    text-shadow: 0 2px 2px #000;
+    width: 30%;
+
+}
+
+.shadow-box {
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    margin: 30px;
+    padding: 30px;
+    width: 300px;
+    /* background: radial-gradient(circle at center, aqua, blue); */
+    background: linear-gradient(175deg, rgb(83, 128, 0), rgb(255, 208, 0)); 
+    color: #fb8989;
+    font-size: 24pt;
+    opacity: 0.95;
+    transition: background-color 0.5s ease-in-out;
+}
+.shadow-box:hover {
+    transform: scale(1.2, 0.7); 
+    /* transform: skewX(-15deg);  */
+    transform: skewY(-15deg); 
+    
+}
